@@ -1,0 +1,69 @@
+.btn {
+  padding: 5px 20px;
+  margin: 2px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-radius: 25px; /* Makes the buttons oval */
+  background-color: transparent;
+  color: inherit;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.btn-read {
+  color: blue;
+  border-color: blue;
+}
+
+.btn-read.active {
+  background-color: blue;
+  color: white;
+}
+
+.btn-write {
+  color: green;
+  border-color: green;
+}
+
+.btn-write.active {
+  background-color: green;
+  color: white;
+}
+
+.btn-disable {
+  color: grey;
+  border-color: grey;
+}
+
+.btn-disable.active {
+  background-color: grey;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: none; /* Remove borders */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.triangle {
+  display: inline-block;
+  margin-left: 5px;
+}
